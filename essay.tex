@@ -1,0 +1,139 @@
+\documentclass[12pt]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{amsmath, mathtools , amssymb , amsthm }
+\usepackage{graphicx}
+\graphicspath{example/path} 
+\raggedright
+
+\author{Marking Code: Z0171688}
+\title{Econs Theory Summative:\\ 
+Explain how the economic growth of a developing nation may be different from that of a developed nation, and the challenges faced when attempting to increase its income per capita to the same level as that of developed nations.
+}
+
+\begin{document}
+
+\maketitle
+\pagebreak
+
+\section{Introduction}
+I will tackle this questions in two sections: the first will be a primarily theoretical 
+analysis of the task, looking at models and growth, particularly the Solow Growth Model, 
+in order to evaluate the stimuli and inhibitors of growth from the theoretical point 
+of view. I will then go on to discuss historical and real world examples where these 
+variables have manifested, for instance using Collier P. et al, 
+\textit{Why Has Africa Grown Slowly?}
+
+\section{The Solow Growth Model}
+The Solow model can be used to analyse changes in the level of output of an economy 
+overtime as the result of changes in physical capital (the stock of factories and 
+machinery), human capital (how skilled and educated is the workforce), and technology 
+(this can be considered somewhat of a catch-all for variables other than labor, or 
+capital, for instance - unsurprisingly - closeness to the technological frontier). 
+\newline
+
+In a very basic form, the Solow model can be expressed as \( y = Af(k) \), 
+where output per worker $y$ is a function of the capital per worker $k$ and technology 
+$A$. The function $f()$ is assumed to give a diminishing rate of return (more specifically
+it satisfies the Inada conditions). Plotting its graph looks like this:
+
+\includegraphics[scale=0.85]{img/graph1.png}
+
+Where \(f(k) = k^{1/3} \), and \( A = 0.5 \). 
+\newline
+
+When the output is low, a small change in the input causes a greater return on investment,
+which would imply that poorer countries are able to grow more rapidly than richer ones in 
+the short term, and that gradually their growth will converge with that of richer 
+countries. However, this is only true if the circumstances under which two countries exist 
+are equivalent. Continuing to examine closed economies, if one economy posses greater 
+technology than another, say \( A = 0.7 \),  then naturally their 
+output will be greater:
+
+\includegraphics[scale=0.85]{img/graph2.png}
+\newline
+
+This is a very basic interpretation to demonstrate that economies which exist on an even 
+playing field will converge, as they grow quickly at first, and gradually reach a steady 
+state, but that they cannot converge if their circumstances differ. It also demonstrates 
+that in order to achieve sustained growth, technological progress must happen: the graph 
+demonstrates that increases in capital or labour gives diminishing returns, while 
+technology is able to shift the level of output. The level of technology cannot remain 
+constant however, as this does not give permanent growth. Furthermore, this example 
+assumes a closed economy, which is not realistic. 
+\newline
+
+\subsection{Using Solow To Analyse Economies}
+
+This section looks at some of the equations which underpin the Solow model, as they will be useful 
+in analysing the question.
+\newline
+
+A better representation of the Solow model can be given as
+\[ Y_{t} = K_{t}^{\alpha} \cdot (A_{t} \cdot L_{t})^{1-\alpha} \]
+where $\alpha$ denotes the elasticity of output with respect to capital. $AL$ 
+naturally shows \textbf{effective labour}: the workforce augmented by technology. This 
+is very similar to the above (production as a function of capital $K$, technology $A$, and 
+labour $L$, with technology as labour augmenting, \(Y = f(K, AL)\), and using the 
+Cobb-Douglas for $f()$).
+\newline
+
+Assuming labour and the level of technology grow exogenously as 
+\(L_{t} = L_{0} \cdot e^{nt} \) and \(A_{t} = A_{0} \cdot e^{gt} \), the effective 
+workforce increases by \((n + g)\).
+\newline 
+
+Capital stock increases as investments are made. Imagining no trade
+again, this investment is equivalent to the fraction of the output that is not 
+consumed (savings), \(S_{t} = i_{t} = sY_{t}\). Capital stock will also decay over time 
+by some amount $\delta$. Therefore, the change in capital stock with respect to time is 
+\( \dot{K} = sY_{t} - \delta K_{t} \). 
+\newline 
+
+We can then write the production function in terms of $y$, the output per effective 
+unit of labour. (This can be used to measure wealth creation, as it is an indirect 
+indicator of per capita income.) 
+
+\[y_{t} = \frac{Y_{t}}{A_{t}L_{t}} = \frac{K_{t}^{\alpha} \cdot (A_{t} \cdot L_{t})^{1-\alpha}}{A_{t} \cdot L_{t}} = \frac{K_{t}^{\alpha}}{A_{t} \cdot L{t}} = k_{t}^{\alpha}\]
+
+We can now arrive at the core equation of the of model, which gives the capital stock per unit 
+of effective labour.
+
+\[ \dot{k} = sk_{t}^{\alpha} - (n + g + \delta) \cdot k_{t} \]
+
+The first term represents the investment per unit of effective labour, \(sk_{t} = sy_{t}\), the 
+product of the savings rate $s$ and the output per effective unit of labour $y$, while the second 
+term represents the amount that must be invested in order to keep $k$ from diminishing. This 
+equation is important because we can infer from it that $k_{t}$ will approach the steady state 
+$k^{*}$, when \(sk_{t}^{\alpha} = (n + g + \delta) \cdot k_{t}\). At this point, capital deepening 
+ceases. Therefore we can infer from the Solow model that an economy will reach a \textit{balanced 
+growth path}, or constant growth rate. As output per worker only grows due to the rate of 
+technological progress, $A$ can be considered the measure of productivity. 
+
+Returning specifically to the question, in a global trade setting of open economies, money 
+should flow from rich to poor countries, assuming productivity levels are even, as poorer countries 
+with lower capital per worker offer a higher marginal product, as they will not have reached the 
+same steady state of the more developed economies. Their growth will then eventually also 
+stabilise. 
+\newline
+
+This is often not the case however, as investments in the real world are often shared between 
+the most developed nations. The Solow model is insufficient to explain why developed countries 
+will often offer a greater return on investment than poorer ones. Therefore, I will now shift my 
+answer away from theoretical analysis, to look at more real world examples of how growth manifests, 
+and when poorer nations are able to grow. 
+\newline
+
+\section{Why Do Some Poor Countries Grow, And Others Do Not?}
+
+\pagebreak
+\textbf{References:}
+
+Collier P, and Gunning J. W.,(1999) ‘Why has Africa grown slowly?’, Journal of Economic Perspectives 13 (3) pp 3–22,
+
+Fernández-Villaverde, J. and Jones, C.I., 2020. Macroeconomic outcomes and COVID-19: a progress report (No. w28004). National Bureau of Economic Research.
+
+Bucci, A. and Guerrini, L., 2009. Transitional dynamics in the Solow-Swan growth model with AK technology and logistic population change. The BE Journal of Macroeconomics, 9(1).
+\end{document}
